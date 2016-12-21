@@ -50,8 +50,3 @@ if res!=None:
         fil.write('INSERT INTO rus_words (id, wordforms, lemma) VALUES ("'+str(d[part[1]])+'", "'+part[0]+'", "'+part[1]+'");\n')
     
 fil.close()
-
-
-
-
-
